@@ -1,4 +1,4 @@
-﻿namespace HelloWordl {
+﻿namespace HelloWorld {
 
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Intrinsic;

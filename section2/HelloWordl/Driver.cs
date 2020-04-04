@@ -1,14 +1,14 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.Quantum.Simulation.Simulators;
 
-namespace HelloWordl
+namespace HelloWorld
 {
     class Driver
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             using var qsim = new QuantumSimulator();
-            HelloQ.Run(qsim).Wait();
+            await HelloQ.Run(qsim);
         }
     }
 }
