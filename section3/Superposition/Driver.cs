@@ -20,8 +20,8 @@ namespace Superposition
                }
             }
             Console.WriteLine("Collapsed State");
-            Console.WriteLine($"\t  One: {(double) ones / NUMBER_OF_RUNS}%");
-            Console.WriteLine($"\t Zero: {(double) (NUMBER_OF_RUNS - ones) / NUMBER_OF_RUNS}%");
+            Console.WriteLine($"\t  One: {((double) ones / NUMBER_OF_RUNS) * 100.0D}%");
+            Console.WriteLine($"\t Zero: {((double) (NUMBER_OF_RUNS - ones) / NUMBER_OF_RUNS) * 100.0D}%");
         }
     }
 }
